@@ -49,7 +49,12 @@ body { margin: 0; background: #fff; }
 .case-section .green-screen:nth-of-type(5) { min-height: 0; padding: 0; background: transparent url('five YES - PROCESSING SCREEN.png') center / contain no-repeat; aspect-ratio: 689 / 489; color: transparent; }
 .case-section .green-screen:nth-of-type(5) > * { visibility: hidden; }
 .case-section .green-screen:nth-of-type(5) { position: relative; margin-top: 58px; }
-.case-section .green-screen:nth-of-type(5)::before { content: 'New Extraction screen'; position: absolute; top: -38px; left: 0; color: #080808; font-size: 11px; font-weight: 600; }
+.case-section .green-screen:nth-of-type(5)::before { content: 'Extraction screen'; position: absolute; top: -38px; left: 0; color: #080808; font-size: 11px; font-weight: 600; }
+.case-section .green-screen:nth-of-type(5) { width: 100%; height: min(277px, 57vw); min-height: 0; margin-top: 76px; background-size: min(390px, 80vw) auto; }
+.case-section .green-screen:nth-of-type(5)::before { top: -48px; left: 0; }
+.case-section .green-screen:nth-of-type(5)::after { content: 'The screen was created after I concluded my research to replace the previous extraction screen'; position: absolute; top: -27px; left: 0; color: #080808; font-size: 10px; font-weight: 400; line-height: 1.7; white-space: nowrap; }
+#design::after { content: 'Reach out for a full case study.'; display: block; margin-top: -19px; color: #080808; font-size: 10px; line-height: 1.7; }
+.figma-social-icons { display: inline-block; line-height: 0; }.figma-social-icons img { display: block; width: 235px; height: 50px; }
 @media (max-width: 700px) { .case-meta { grid-template-columns: 1fr; gap: 20px; }.case-intro { padding-top: 36px; }.case-section { padding-bottom: 45px; } }
 .dona-hero { background: #6af0c8; padding: 60px 20px; }.dona-hero img { width: min(630px, 90%); }
 .social-links a:first-child svg { width: 70px; height: 60px; }
